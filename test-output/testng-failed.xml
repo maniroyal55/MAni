@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="user" value="silver Ring"/>
+  <test name="Test(failed)">
+    <parameter name="user" value="silver Ring"/>
+    <classes>
+      <class name="testIng.org.india.App">
+        <methods>
+          <include name="launch"/>
+          <include name="tc1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testIng.org.india.App -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

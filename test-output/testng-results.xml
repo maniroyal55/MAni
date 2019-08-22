@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="100393" started-at="2019-08-22T06:37:26Z" finished-at="2019-08-22T06:39:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="100393" started-at="2019-08-22T06:37:26Z" finished-at="2019-08-22T06:39:06Z">
+      <class name="testIng.org.india.App">
+        <test-method status="PASS" signature="launch()[pri:0, instance:testIng.org.india.App@193948d]" name="launch" is-config="true" duration-ms="31948" started-at="2019-08-22T12:07:26Z" finished-at="2019-08-22T12:07:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="tc1(java.lang.String)[pri:0, instance:testIng.org.india.App@193948d]" name="tc1" duration-ms="68355" started-at="2019-08-22T12:07:58Z" finished-at="2019-08-22T12:09:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Silver Ring]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- testIng.org.india.App -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
